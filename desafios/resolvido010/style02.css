@@ -45,6 +45,16 @@ header > p {
     text-align: center;
 }
 
+div.quadrado {
+    display: block;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url('imagens/irina-blok-pq.jpg');
+    margin: auto;
+}
+
 main {
     min-width: 300px;
     max-width: 1300px;
@@ -55,4 +65,8 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+main h2 {
+    padding-bottom: 30px;
 }
